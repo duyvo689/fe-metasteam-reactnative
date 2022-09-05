@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    "outDir": "./built",
+    "allowJs": true,
+  },
+  "include": ["./**/*"],
+  "extends": "expo/tsconfig.base"
+}

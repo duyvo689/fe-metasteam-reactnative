@@ -1,0 +1,27 @@
+version: '3.7'
+
+services:
+  fe:
+    build: .
+    image: ${IMAGE:-ms-fe}:${TAG:-debug}
+    ports:
+      - 8080:80
+    environment:
+      EXPO_API_URL: $EXPO_API_URL
+      EXPO_MORALIS_SERVER_URL: $EXPO_MORALIS_SERVER_URL
+      EXPO_MORALIS_APP_ID: $EXPO_MORALIS_APP_ID
+      EXPO_STREAM_URL: $EXPO_STREAM_URL
+    deploy:
+      replicas: 1
+      update_config:
+        parallelism: 2
+        order: start-first
+        failure_action: rollback
+        delay: 10s
+      rollback_config:
+        parallelism: 1
+        order: stop-first
+      restart_policy:
+        condition: any
+        delay: 1s
+        window: 30s

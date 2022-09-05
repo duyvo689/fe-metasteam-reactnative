@@ -1,0 +1,35 @@
+export default {
+  primaryDarkColor: "#00FF8E",
+  primaryAlphaDarkColor: "rgba(0, 255, 142, 0.1)",
+  primaryBetaDarkColor: "rgba(0, 255, 142, 0.2)",
+  primaryThetaDarkColor: "rgba(0, 255, 142, 0.4)",
+  primaryDeltaDarkColor: "rgba(0, 255, 142, 0.6)",
+  primaryGammaDarkColor: "rgba(0, 255, 142, 0.8)",
+  secondaryDarkColor: "#7A44EF",
+
+  backgroundDarkColor: "#15141F",
+  contentDarkColor: "#000000",
+  contentAlphaDarkColor: "rgba(0, 0, 0, 0.1)",
+  contentBetaDarkColor: "rgba(0, 0, 0, 0.2)",
+  contentBackgroundDarkColor: "rgba(0, 0, 0, 0.5)",
+  badgeDarkColor: "#F01200",
+
+  buttonTextDarkColor: "#212529",
+  primaryTextDarkColor: "#FFFFFF",
+  secondaryTextDarkColor: "#6C757D",
+  tertiaryTextDarkColor: "#6C757D",
+  successTextDarkColor: "#06C270",
+  errorTextDarkColor: "#FF3B3B",
+  warningTextDarkColor: "#FF8800",
+
+  chipDarkColor: "#242532",
+  dividerDarkColor: "rgba(255, 255, 255, 0.5)",
+  hideDarkColor: "rgba(255, 255, 255, 0.5)",
+  grayDarkColor: "rgba(255, 255, 255, 0.5)",
+  borderDarkColor: "rgba(255, 255, 255, 0.1)",
+  roundedDarkColor: "rgba(255, 255, 255, 0.2)",
+
+  white: "#FFFFFF",
+  black: "#000000",
+  red: "#F01200",
+};

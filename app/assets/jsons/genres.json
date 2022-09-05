@@ -1,0 +1,26 @@
+[
+  {
+    "id": 0,
+    "text": "Game",
+    "type": "simple-line-icon",
+    "name": "puzzle",
+    "color": "#6C757D",
+    "size": 15
+  },
+  {
+    "id": 2,
+    "text": "Art",
+    "type": "simple-line-icon",
+    "name": "bulb",
+    "color": "#6C757D",
+    "size": 15
+  },
+  {
+    "id": 1,
+    "text": "Music",
+    "type": "simple-line-icon",
+    "name": "music-tone-alt",
+    "color": "#6C757D",
+    "size": 15
+  }
+]
